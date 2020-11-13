@@ -1,0 +1,25 @@
+@import url(./__name/nav-bar__name.css);
+@import url(./__items/nav-bar__items.css);
+@import url(./__item-highlight/nav-bar__item-highlight.css);
+@import url(./__item-container/nav-bar__item-container.css);
+@import url(./__item/nav-bar__item.css);
+@import url(./__item/_selected/nav-bar__item_selected.css);
+@import url(./__item-icon/nav-bar__item-icon.css);
+
+.nav-bar {
+  align-items: center;
+  background-color: #0b2027;
+  bottom: 0;
+  display: flex;
+  right: 0;
+  width: 100%;
+  position: fixed;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    position: sticky;
+    bottom: initial;
+    top: 0;
+  }
+}

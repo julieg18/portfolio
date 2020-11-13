@@ -1,0 +1,10 @@
+.nav-bar__item-icon {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .nav-bar__item-icon {
+    font-size: 1rem;
+    margin-right: 3px;
+  }
+}
