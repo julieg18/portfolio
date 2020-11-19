@@ -3,3 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/nav-bar/nav-bar.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/section-heading/section-heading.css);
+@import url(../blocks/tags/tags.css);
+@import url(../blocks/tag/tag.css);
