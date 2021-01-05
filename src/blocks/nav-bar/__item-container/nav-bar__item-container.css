@@ -1,0 +1,7 @@
+.nav-bar__item-container:first-of-type {
+  justify-self: start;
+}
+
+.nav-bar__item-container:last-of-type {
+  justify-self: end;
+}

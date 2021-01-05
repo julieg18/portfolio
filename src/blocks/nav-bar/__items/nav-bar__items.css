@@ -1,0 +1,17 @@
+.nav-bar__items {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .nav-bar__items {
+    display: flex;
+    padding: 10px 0;
+    width: initial;
+  }
+}

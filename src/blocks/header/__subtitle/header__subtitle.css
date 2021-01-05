@@ -1,0 +1,26 @@
+.header__subtitle {
+  margin: 0 0 0 15px;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .header__subtitle {
+    font-size: 1.6rem;
+    margin: 0 0 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__subtitle {
+    font-size: 2rem;
+    margin: 0 0 0 45px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__subtitle {
+    font-size: 2.2rem;
+    margin: 0 0 0 60px;
+  }
+}

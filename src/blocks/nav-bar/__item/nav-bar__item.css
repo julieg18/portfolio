@@ -1,0 +1,21 @@
+.nav-bar__item {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .nav-bar__item {
+    margin-right: 20px;
+    flex-direction: row;
+    font-size: 1rem;
+  }
+
+  .nav-bar__item-container:last-of-type .nav-bar__item {
+    margin-right: 10px;
+  }
+}

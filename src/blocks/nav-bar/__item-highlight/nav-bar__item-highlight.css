@@ -1,0 +1,16 @@
+.nav-bar__item-highlight {
+  background-color: #c5ebc3;
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .nav-bar__item-highlight {
+    top: 35px;
+  }
+}

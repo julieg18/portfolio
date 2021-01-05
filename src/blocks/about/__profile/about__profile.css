@@ -1,0 +1,12 @@
+.about___profile {
+  display: flex;
+  grid-area: profile;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .about___profile {
+    flex-direction: column;
+    margin: 0;
+  }
+}
