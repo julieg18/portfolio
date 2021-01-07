@@ -3,11 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: { main: './src/index.js' },
+  entry: { main: './src/index.js', 404: './src/404.js' },
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
     publicPath: '/portfolio/',
   },
   devServer: {
@@ -46,6 +46,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: '404.html',
+      template: './src/404.html',
+      chunks: ['404'],
     }),
     new MiniCssExtractPlugin(),
   ],
